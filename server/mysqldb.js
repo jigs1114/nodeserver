@@ -40,10 +40,10 @@ const options = {
 
 
 
-  knex.select('*').from('users Datas')
+  knex.select('*').from('users')
   .then(data => {
-    console.log('users Datas:', data)
-    console.log('data Datas:', data.length)
+    console.log('users:', data)
+    console.log('data:', data.length)
   })
   .catch(err => console.log(err))
 
